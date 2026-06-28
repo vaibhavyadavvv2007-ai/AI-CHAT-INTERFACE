@@ -43,10 +43,7 @@ Create a `.env` file inside `server/`:
 
 ```env
 GROQ_API_KEY=your_groq_api_key_here
-CHUNK_DELAY_MS=20
 ```
-
-`CHUNK_DELAY_MS` is optional. It only adds a small delay between streamed chunks.
 
 ### 3. Start the backend
 
